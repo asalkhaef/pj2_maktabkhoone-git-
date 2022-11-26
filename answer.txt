@@ -1,0 +1,76 @@
+عسل خائف - پروژه‌ میانی اول 
+asal.khaef@gamil.com
+
+1 -  git init pj_1
+ساختن یک فایل
+ghablesh ba cd path mored nazaro peida mikonim......
+
+
+
+2 - git config --global user.name "Asal Khaef"
+    git config --global user.email asal.khaef@gmail.com
+
+
+
+3 - در این قسمت یک فایل جاوا ساختم.
+
+
+
+4 - git status
+ans : Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        pj_1.iml
+        src/
+
+
+
+5 - ba git add . command ...... hame file haye sakhte shode ro be halat stage mibarim....
+
+
+
+6 - git commit -m "add java project"
+ans : [master (root-commit) ef5b5c9] add java project
+ 6 files changed, 57 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 pj_1.iml
+ create mode 100644 src/pj_1.java
+
+چند بار ادیت کردم و با مسیج‌های متفاوت کامیت کردم...
+ 
+commit messeges : 
+
+adding line 20 to 23
+
+edit and add more
+
+adding main and scanner to pj
+
+
+
+
+7 - برای مشاهده تغییرات نسبت به کل فایل‌ها از : git diff 
+    برای مشاهده تغییرات نسبت به یک فایل خاص :  gitt diff [file name]
+
+ans :  git diff
+diff --git a/src/pj_1.java b/src/pj_1.java
+index 742f2e5..5c09f4d 100644
+--- a/src/pj_1.java
++++ b/src/pj_1.java
+@@ -6,6 +6,7 @@ public class pj_1 {
+     private static Scanner input = new Scanner(System.in);
+     public static void main(String[] args) {
+         System.out.println(normalize(input.next()));
++        //this is for make a change for using git diff and git log
+     }
+     public static String normalize(String path) {
+         //remove "/" in the path.................
+
+
+
+
+
+

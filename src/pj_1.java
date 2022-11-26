@@ -6,6 +6,7 @@ public class pj_1 {
     private static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println(normalize(input.next()));
+        //this is for make a change for using git diff and git log
     }
     public static String normalize(String path) {
         //remove "/" in the path.................
