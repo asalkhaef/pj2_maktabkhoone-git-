@@ -1,9 +1,11 @@
 import java.util.Arrays;
+import java.util.Scanner;
 import java.util.Stack;
 
 public class pj_1 {
+    private static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-
+        System.out.println(normalize(input.next()));
     }
     public static String normalize(String path) {
         //remove "/" in the path.................
