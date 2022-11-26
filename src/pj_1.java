@@ -17,6 +17,10 @@ public class pj_1 {
                 save.push(element);
         }
         StringBuilder finalPath = new StringBuilder();
+        
+        for(String option : save)
+            finalPath.append("/").append(option);
+
         return finalPath.toString();
     }
 }
